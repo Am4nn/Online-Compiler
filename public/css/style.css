@@ -1,0 +1,54 @@
+body {
+    max-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-sizing: border-box;
+}
+
+.disappear {
+    display: none;
+}
+
+#run,
+#reset,
+#stop {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 5px;
+    transition: text-decoration 250ms, color 250ms ease-in-out;
+}
+
+#run:hover,
+#reset:hover,
+#stop:hover {
+    color: orange;
+    text-decoration-color: orange;
+}
+
+textarea {
+    width: 100%;
+}
+
+.editor-name {
+    background-color: cornsilk;
+    text-align: center;
+    border-bottom: 2px double black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-right: 1px solid black;
+}
+
+.output-content {
+    background-color: rgba(240, 242, 255, 0.752);
+    overflow: scroll;
+    min-height: 40vh;
+    max-height: 85vh;
+}
+
+.error-disabled {
+    pointer-events: none;
+}
+
+.wrapper-disabled {
+    cursor: not-allowed;
+}
