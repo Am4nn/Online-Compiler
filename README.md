@@ -1,5 +1,5 @@
 # Online-Compiler
-Online Compiler using hackerearth API 
+Online Compiler using Frontend => html css js, Backend => nodejs and hackerearth API 
 
 Working on it...
 
